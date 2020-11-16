@@ -1,3 +1,12 @@
 <div id="actor_group_overview" class="app fatex__actor_group_overview">
+    <h2 class="fatex__actor_group__title">
+        Actor group
+    </h2>
 
+    {{#each actors as |actor|}}
+        <img class="fatex__actor_group__actor" alt="{{actor.data.name}}" data-edit="img" src="{{actor.data.img}}" width="50" />
+    {{/each}}
+
+    <div class="app fatex__actor_group_add">
+    </div>
 </div>
