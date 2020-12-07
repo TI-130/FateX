@@ -1,0 +1,211 @@
+{
+    "FateX": "FateX",
+    "FAx": {
+        "name": "FateX",
+        "Global": {
+            "Ladder": {
+                "+8": "传奇",
+                "+7": "史诗",
+                "+6": "惊艳",
+                "+5": "卓越",
+                "+4": "极佳",
+                "+3": "良好",
+                "+2": "不错",
+                "+1": "一般",
+                "+0": "二流",
+                "-1": "差劲",
+                "-2": "糟糕",
+                "-3": "灾难",
+                "-4": "噩梦"
+            },
+            "Actions": {
+                "Configure": "设置",
+                "Delete": "删除",
+                "Duplicate": "复制",
+                "Sort": "排序",
+                "Create": "新建空白角色",
+                "Choose": "选择模板"
+            },
+            "BaseItem": "基础物品"
+        },
+        "Sheet": {
+            "Name": "名字",
+            "Description": "描述",
+            "FatePoints": "命运点",
+            "Aspects": "特征",
+            "Consequences": "后果",
+            "Skills": "技能",
+            "Stunts": "特技",
+            "Extras": "其他",
+            "Bio": "生平",
+            "Artwork": "图片",
+            "StressTracks": "压力槽",
+            "Tabs": {
+                "SkillsStunts": "技能与特技",
+                "Skills": "技能",
+                "Stunts": "特技",
+                "Extras": "其他",
+                "Bio": "生平"
+            },
+            "Buttons": {
+                "EditMode": "修改模式",
+                "SheetSetup": "角色卡设置"
+            },
+            "Stress": {
+                "Add": "添加压力槽"
+            },
+            "Messages": {
+                "EmptyActor": "It looks like your character doesn't have any content yet. You can change this in the <strong>Edit Mode</strong> or the <strong>Sheet Setup</strong>. The buttons to toggle the edit mode or open the setup can be found in the header bar."
+            }
+        },
+        "Item": {
+            "Stress": {
+                "Name": "压力槽标签",
+                "EditItem": "编辑压力槽",
+                "Size": "格子的数量",
+                "Description": "描述",
+                "DescriptionHelp": "这些描述会被显示在压力槽区域。",
+                "Boxes": {
+                    "Label": "格子标签风格",
+                    "Custom": "自定义格子标签",
+                    "CustomHelp": "输入一列unicode字符。例如“2 4 6 ☀”。"
+                },
+                "Type": {
+                    "Core": "核心",
+                    "Condensed": "加速",
+                    "Custom": "空白 / 自定义"
+                }
+            },
+            "Aspect": {
+                "EditItem": "编辑特征",
+                "Value": "文字",
+                "Description": "描述",
+                "DescriptionHelp": "仅在被发送到聊天栏时才会显示",
+                "Label": "标签"
+            },
+            "Consequence": {
+                "EditItem": "编辑后果",
+                "Value": "编辑",
+                "Description": "描述",
+                "DescriptionHelp": "仅在被发送到聊天栏时才会显示",
+                "Label": "标签",
+                "LabelHelp": "用以描述后果严重程度的标签, 例如 “轻微” 或 “严重”。",
+                "Icon": "图标",
+                "IconHelp": "通常是一个如2，4，6，8这样的数字。在左边显示。",
+                "Type": {
+                    "Label": "Variant",
+                    "Condition": "条件",
+                    "Consequence": "后果"
+                }
+            },
+            "Skill": {
+                "Name": "技能名称",
+                "EditItem": "编辑技能",
+                "Rank": "等级",
+                "Description": "描述",
+                "DescriptionHelp": "只在被发送到聊天栏时才会显示"
+            },
+            "Stunt": {
+                "Name": "特技名称",
+                "EditItem": "编辑特技",
+                "Description": "描述",
+                "DescriptionHelp": "这项特技的完整描述",
+                "ShortDescription": "概括",
+                "ShortDescriptionHelp": "这项特技的概括"
+            },
+            "Extra": {
+                "Name": "Extra title",
+                "EditItem": "Edit Extra",
+                "Description": "Description",
+                "DescriptionHelp": "Long description for this extra",
+                "ShortDescription": "Short Description",
+                "ShortDescriptionHelp": "Short description for this extra"
+            },
+            "Automation": {
+                "Headline": "Automation",
+                "BoxesHeadline": "Box Automation",
+                "Description": "There are no skill conditions set yet. Please add one or more skill conditions to enable automation features.",
+                "AddSkillRef": "Add skill condition",
+                "DisableUntil": "Disable until",
+                "BoxesIf": "box(es) if",
+                "MultipleConditions": "Enable automation if",
+                "MultipleConditionsMatches": "condition matches",
+                "Actions": {
+                    "Box": {
+                        "ADD": "Add",
+                        "REMOVE": "Remove"
+                    }
+                },
+                "Conjunctions": {
+                    "AND": "所有",
+                    "OR": "任何"
+                },
+                "Operators": {
+                    "OPERATOR_EQUALS": "等于",
+                    "OPERATOR_NOT_EQUALS": "不等于",
+                    "OPERATOR_GT": "大于",
+                    "OPERATOR_LT": "小于",
+                    "OPERATOR_GTE": "大于或等于",
+                    "OPERATOR_LTE": "小于或等于"
+                }
+            }
+        },
+        "Dialog": {
+            "ReferenceRemove": "Remove reference",
+            "ReferenceRemoveText": "Do you really want to <strong>permanently</strong> remove this reference?",
+            "EntityDelete": "Delete",
+            "EntityDeleteText": "Do you really want to <strong>permanently</strong> delete this entity?",
+            "ActorClear": "Clear component",
+            "ActorClearText": "Do you really want to <strong>permanently</strong> delete all this actors components <strong>and their content</strong> of the chosen type?",
+            "Confirm": "Confirm",
+            "Cancel": "Cancel"
+        },
+        "Apps": {
+            "Setup": {
+                "Title": "Sheet Setup",
+                "Manage": "Manage",
+                "Setup": "Setup (Presets)",
+                "Actions": {
+                    "Clear": {
+                        "Aspects": "Clear aspects",
+                        "Consequences": "Clear consequences",
+                        "Skills": "Clear skills",
+                        "Stress": "Clear stress tracks",
+                        "Everything": "Clear everything"
+                    },
+                    "Setup": {
+                        "AddToSheet": "Add selected to sheet",
+                        "ToggleSelection": "Toggle selection"
+                    }
+                }
+            }
+        },
+        "Settings": {
+            "Templates": {
+                "Title": "角色卡模板",
+                "Hint": "允许你为新角色选择他们的角色卡。",
+                "Button": "FateX模板",
+                "New": "新模板",
+                "Copy": "复制",
+                "App": {
+                    "Title": "编辑模板",
+                    "Label": "设置",
+                    "CreateNew": "新建模板",
+                    "Help": "There are no configured templates yet.<br />To add a new template, click on the <strong>Create new template</strong> button (also available in the header bar)."
+                }
+            }
+        },
+        "Template": {
+            "Picker": {
+                "Title": "选择模板",
+                "Label": "模板",
+                "Configuration": "设置",
+                "Empty": "空白角色",
+                "CreateEmpty": "空白角色",
+                "Or": "或",
+                "Help": "要添加新模板，则点击下方的<strong>设置</strong>按钮（该按钮也可以在抬头栏中找到) 。",
+                "Explain": "Templates are a great way to have different sheets for different kinds of actors. We suggest using <strong>different templates</strong> for PCs, NPCs, and Mooks, as all of them have <strong>different sheet requirements</strong>."
+            }
+        }
+    }
+}

@@ -26,6 +26,11 @@
             "lang": "fr",
             "name": "Français",
             "path": "languages/fr.json"
+        },
+        {
+            "lang": "cn",
+            "name": "中文",
+            "path": "languages/cn.json"
         }
     ],
     "minimumCoreVersion": "0.5.2",
